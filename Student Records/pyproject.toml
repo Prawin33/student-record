@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "my-flask-app"
+version = "0.1.0"
+description = "A simple Flask application"
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flask = "^2.0"
+gunicorn = "^20.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
